@@ -22,9 +22,11 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
+    "issue-parser": "^6.0.0",
     "probot": "^9.5.3"
   },
   "devDependencies": {
+    "@types/issue-parser": "^3.0.0",
     "@types/jest": "^24.0.19",
     "@types/nock": "^11.1.0",
     "@types/node": "^13.1.0",
